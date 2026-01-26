@@ -1,0 +1,189 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000 0%, #1e90ff 50%, #000 100%);
+  background-attachment: fixed;
+  color: #e6e6e6;
+}
+
+header {
+  background: linear-gradient(to right, #000, #1e90ff, #000);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 4px solid #ff0000;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #1e90ff;
+}
+
+header p {
+  font-style: italic;
+  color: #e6e6e6;
+}
+
+.intro {
+  padding: 20px;
+  text-align: center;
+  background-color: #0d0d0d;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #0d0d0d 0px,
+    #0d0d0d 10px,
+    #1a1a1a 10px,
+    #1a1a1a 20px
+  );
+  border-bottom: 2px solid #1e90ff;
+  color: #e6e6e6;
+}
+
+.intro h2 {
+  color: #ff0000;
+  text-shadow: 0 0 8px #1e90ff;
+}
+
+.gallery {
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(to bottom, #000, #1e90ff, #000);
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  color: #ff0000;
+  text-transform: uppercase;
+  text-shadow: 0 0 8px #1e90ff;
+}
+
+.gallery ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery figure {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery img {
+  width: 400px;
+  height: auto;
+  border: 5px solid #1e90ff;
+  background-color: #fff;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  border-color: #ff0000;
+}
+
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #e6e6e6;
+}
+
+.bio {
+  padding: 20px;
+  text-align: center;
+  background-color: #0d0d0d;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #0d0d0d 0px,
+    #0d0d0d 10px,
+    #1a1a1a 10px,
+    #1a1a1a 20px
+  );
+  border-top: 2px solid #1e90ff;
+  color: #e6e6e6;
+}
+
+.bio h2 {
+  color: #ff0000;
+  text-shadow: 0 0 8px #1e90ff;
+}
+
+.bio img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #ff0000;
+}
+
+.bio p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact {
+  padding: 20px;
+  background: linear-gradient(to bottom, #000, #4169e1, #000);
+}
+
+.contact h2 {
+  color: #1e90ff;
+  text-shadow: 0 0 8px #ff0000;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact input, 
+.contact textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+}
+
+.contact input:focus, 
+.contact textarea:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+.contact button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact button:hover {
+  background-color: #1e90ff;
+}
+
+footer {
+  background: linear-gradient(to right, #000, #1e90ff, #000);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 3px solid #ff0000;
+}
