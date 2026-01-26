@@ -31,7 +31,13 @@ header p {
   padding: 20px;
   text-align: center;
   background-color: #0d0d0d;
-
+  background-image: repeating-linear-gradient(
+    45deg,
+    #0d0d0d 0px,
+    #0d0d0d 10px,
+    #1a1a1a 10px,
+    #1a1a1a 20px
+  );
   border-bottom: 2px solid #1e90ff;
   color: #e6e6e6;
 }
