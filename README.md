@@ -1,7 +1,7 @@
 # Supercar Showcase 🚗💨
 
 ## Author
-Lewis muithya
+Lewis Muithya
 
 ## Project Description
 This project is a personal website themed around **supercars**, with a special highlight on the legendary **BMW M3 GTR from Need for Speed: Most Wanted (2005)**.  
@@ -30,7 +30,7 @@ The design file is included in this repository (`design.png`).
 
 ## Deployment
 This project is deployed using **GitHub Pages**.  
-Live site: [https://lewismuithya-stack.github.io/photograghy](https://lewismuithya-stack.github.io/photograghy)
+Live site: [https://lewismuithya-stack.github.io/photograghy/](https://lewismuithya-stack.github.io/photograghy/)
 
 ## Commits
 The repository contains 20+ commits with clear messages documenting the development process (e.g., “Added carbon fiber background to intro and bio”).
