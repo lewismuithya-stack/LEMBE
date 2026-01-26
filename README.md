@@ -30,7 +30,7 @@ The design file is included in this repository (`design.png`).
 
 ## Deployment
 This project is deployed using **GitHub Pages**.  
-Live site: [https://lewismuithya-stack.github.io/photograghy/](https://lewismuithya-stack.github.io/photograghy/)
+Live site: [https://lewismuithya.github.io/photograghy/](https://lewismuithya.github.io/photograghy/)
 
 ## Commits
 The repository contains 20+ commits with clear messages documenting the development process (e.g., “Added carbon fiber background to intro and bio”).
