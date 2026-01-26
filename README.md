@@ -30,7 +30,7 @@ The design file is included in this repository (`design.png`).
 
 ## Deployment
 This project is deployed using **GitHub Pages**.  
-Live site: [https://yourusername.github.io/supercar-website](https://yourusername.github.io/supercar-website)
+Live site: [https://lewismuithya.github.io/supercar-website](https://yourlewismuithya.github.io/supercar-website)
 
 ## Commits
 The repository contains 20+ commits with clear messages documenting the development process (e.g., “Added carbon fiber background to intro and bio”).
