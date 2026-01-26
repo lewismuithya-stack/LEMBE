@@ -139,7 +139,7 @@ header p {
   max-width: 500px;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .contact label {
