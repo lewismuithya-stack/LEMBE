@@ -115,7 +115,7 @@ header p {
 
 .bio img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 15px;
   margin-bottom: 15px;
   border: 3px solid #ff0000;
 }
