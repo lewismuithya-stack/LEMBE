@@ -67,6 +67,7 @@ header p {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  border-radius: 25px;
 }
 
 .gallery figure {
@@ -115,7 +116,7 @@ header p {
 
 .bio img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 15px;
   margin-bottom: 15px;
   border: 3px solid #ff0000;
 }
