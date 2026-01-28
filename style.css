@@ -67,6 +67,7 @@ header p {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  border-radius: 25px;
 }
 
 .gallery figure {
