@@ -21,7 +21,7 @@ The design was planned with a wireframe sketch showing the layout:
 - Contact form
 - Footer
 
-The design file is included in this repository (`lembe.png`).
+The design file is included in this repository (`design.png`).
 
 ## Setup Instructions
 1. Clone or download this repository.
@@ -30,7 +30,7 @@ The design file is included in this repository (`lembe.png`).
 
 ## Deployment
 This project is deployed using **GitHub Pages**.  
-Live site: [https://lewismuithya.github.io/supercar-website](https://lewismuithya.github.io/supercar-website)
+Live site: [https://lewismuithya.github.io/photograghy/](https://lewismuithya.github.io/photograghy/)
 
 ## Commits
 The repository contains 20+ commits with clear messages documenting the development process (e.g., “Added carbon fiber background to intro and bio”).
