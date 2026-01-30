@@ -1,63 +1,55 @@
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #000 0%, #1e90ff 50%, #000 100%);
-  background-attachment: fixed;
-  color: #e6e6e6;
+  background-color: #000000;
+  color: #FFCB70;
 }
 
 header {
-  background: linear-gradient(to right, #000, #1e90ff, #000);
-  color: #fff;
+  background: linear-gradient(to right, #320435, #000000, #320435);
+  color: #FFCB70;
   text-align: center;
   padding: 30px 20px;
-  border-bottom: 4px solid #ff0000;
+  border-bottom: 4px solid #FFCB70;
 }
 
 header h1 {
   font-weight: bold;
   margin: 0;
   text-transform: uppercase;
-  text-shadow: 0 0 10px #1e90ff;
+  text-shadow: 0 0 10px #FFCB70;
 }
 
 header p {
   font-style: italic;
-  color: #e6e6e6;
 }
 
 .intro {
   padding: 20px;
   text-align: center;
-  background-color: #0d0d0d;
   background-image: repeating-linear-gradient(
     45deg,
-    #0d0d0d 0px,
-    #0d0d0d 10px,
+    #111 0px,
+    #111 10px,
     #1a1a1a 10px,
     #1a1a1a 20px
   );
-  border-bottom: 2px solid #1e90ff;
-  color: #e6e6e6;
-}
-
-.intro h2 {
-  color: #ff0000;
-  text-shadow: 0 0 8px #1e90ff;
+  border-bottom: 2px solid #320435;
 }
 
 .gallery {
   padding: 30px;
   text-align: center;
-  background: linear-gradient(to bottom, #000, #1e90ff, #000);
+  background: linear-gradient(to bottom, #000000, #320435, #000000);
 }
 
 .gallery h2 {
   margin-bottom: 20px;
-  color: #ff0000;
+  color: #FFCB70;
   text-transform: uppercase;
-  text-shadow: 0 0 8px #1e90ff;
+  text-shadow: 0 0 8px #320435;
 }
 
 .gallery ul {
@@ -67,74 +59,45 @@ header p {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-  border-radius: 25px;
-}
-
-.gallery figure {
-  margin: 0;
-  text-align: center;
 }
 
 .gallery img {
-  width: 400px;
-  height: auto;
-  border: 5px solid #1e90ff;
-  background-color: #fff;
+  width: 350px;
+  border: 5px solid #320435;
+  border-radius: 12px;
   transition: transform 0.3s, border-color 0.3s;
-  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
 }
 
 .gallery img:hover {
-  transform: scale(1.1);
-  border-color: #ff0000;
-}
-
-.gallery figcaption {
-  margin-top: 10px;
-  font-size: 1rem;
-  color: #e6e6e6;
+  transform: scale(1.05);
+  border-color: #FFCB70;
 }
 
 .bio {
   padding: 20px;
   text-align: center;
-  background-color: #0d0d0d;
   background-image: repeating-linear-gradient(
     -45deg,
-    #0d0d0d 0px,
-    #0d0d0d 10px,
+    #111 0px,
+    #111 10px,
     #1a1a1a 10px,
     #1a1a1a 20px
   );
-  border-top: 2px solid #1e90ff;
-  color: #e6e6e6;
-}
-
-.bio h2 {
-  color: #ff0000;
-  text-shadow: 0 0 8px #1e90ff;
+  border-top: 2px solid #320435;
 }
 
 .bio img {
   width: 150px;
-  border-radius: 15px;
+  border-radius: 50%;
   margin-bottom: 15px;
-  border: 3px solid #ff0000;
-}
-
-.bio p {
-  max-width: 600px;
-  margin: auto;
+  border: 3px solid #FFCB70;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
 
 .contact {
   padding: 20px;
-  background: linear-gradient(to bottom, #000, #4169e1, #000);
-}
-
-.contact h2 {
-  color: #1e90ff;
-  text-shadow: 0 0 8px #ff0000;
+  background: linear-gradient(to bottom, #000000, #320435, #000000);
 }
 
 .contact form {
@@ -147,45 +110,56 @@ header p {
 .contact label {
   margin-top: 10px;
   font-weight: bold;
-  color: #fff;
 }
 
 .contact input, 
 .contact textarea {
   padding: 10px;
   margin-top: 5px;
-  border: 2px solid #333;
+  border: 2px solid #320435;
   border-radius: 5px;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #FFCB70;
 }
 
 .contact input:focus, 
 .contact textarea:focus {
-  border-color: #1e90ff;
+  border-color: #FFCB70;
   outline: none;
 }
 
-.contact button {
-  margin-top: 15px;
-  padding: 10px;
-  background-color: #ff0000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+.button {
+  background-color: #320435;
+  color: #FFCB70;
+  border: 2px solid #000000;
+  padding: 12px 24px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
 
-.contact button:hover {
-  background-color: #1e90ff;
+.button:hover {
+  background-color: #FFCB70;
+  color: #320435;
+  border-color: #FFCB70;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.8);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.6);
 }
 
 footer {
-  background: linear-gradient(to right, #000, #1e90ff, #000);
-  color: #fff;
+  background: linear-gradient(to right, #320435, #000000, #320435);
+  color: #FFCB70;
   text-align: center;
   padding: 15px;
   margin-top: 20px;
-  border-top: 3px solid #ff0000;
+  border-top: 3px solid #FFCB70;
 }
